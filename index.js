@@ -4,7 +4,7 @@ const fs = require('fs')
 const SerialPort = require('serialport')
 const LineByLineReader = require('line-by-line')
 
-const parseFileName = name => fs.createReadStram(name)
+const parseFileName = name => fs.createReadStream(name)
 
 const program = require('commander')
   .version('0.1.0')
